@@ -70,7 +70,7 @@ The table below presents leading SaaS iPaaS platforms, sorted in descending orde
 
 ## 💻 Open-Source GitHub Projects (Self-Hosted iPaaS & Automation)
 
-The following open-source workflow automation engines and integration frameworks are sorted in strictly descending order by **GitHub Stars count**. Each repository badge links directly to its stargazer community.
+The following open-source workflow automation engines, enterprise integration frameworks, and distributed pipeline orchestrators are sorted in strictly descending order by **GitHub Stars count**. Each repository badge links directly to its stargazer community.
 
 ---
 
@@ -88,84 +88,112 @@ The following open-source workflow automation engines and integration frameworks
 
 ---
 
-### 3. [Kestra](https://github.com/kestra-io/kestra) [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+### 3. [Conductor](https://github.com/conductor-oss/conductor) [![GitHub stars](https://img.shields.io/github/stars/conductor-oss/conductor?style=social&color=white)](https://github.com/conductor-oss/conductor/stargazers)
+- **License**: Apache-2.0 License
+- **Primary Stack**: Java, Spring Boot, React, Elasticsearch / Redis
+- **Overview**: Microservices orchestration engine originally built and open-sourced by Netflix. Coordinates high-scale distributed services across cloud boundaries with resilient JSON-defined workflows, asynchronous tasks, state machines, and built-in human tasks.
+
+---
+
+### 4. [Kestra](https://github.com/kestra-io/kestra) [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
 - **License**: Apache-2.0 License
 - **Primary Stack**: Java, Micronaut, Vue.js, Kafka / PostgreSQL
 - **Overview**: An enterprise-grade, event-driven orchestration and automation platform. Allows developers to define declarative workflows in YAML or via a rich UI with 600+ integration plugins. Handles both real-time microservice integrations and high-throughput data processing workflows with distributed worker architecture.
 
 ---
 
-### 4. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+### 5. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
 - **License**: MIT License
 - **Primary Stack**: TypeScript, Node.js, Angular, PostgreSQL, Redis
 - **Overview**: A modern, clean, 100% MIT-licensed no-code workflow automation tool. Features an intuitive visual flow builder, 500+ pre-built community "pieces" (connectors), built-in MCP server compatibility for LLM agent integration, sandboxed code execution, and single-container self-hosting.
 
 ---
 
-### 5. [NocoBase](https://github.com/nocobase/nocobase) [![GitHub stars](https://img.shields.io/github/stars/nocobase/nocobase?style=social&color=white)](https://github.com/nocobase/nocobase/stargazers)
+### 6. [NocoBase](https://github.com/nocobase/nocobase) [![GitHub stars](https://img.shields.io/github/stars/nocobase/nocobase?style=social&color=white)](https://github.com/nocobase/nocobase/stargazers)
 - **License**: AGPL-3.0 License
 - **Primary Stack**: Node.js, React, TypeScript, PostgreSQL / MySQL / SQLite
 - **Overview**: An extensible no-code/low-code development platform with deep relational database integration, custom REST API generation, and a built-in workflow engine. Ideal for organizations seeking to combine internal tooling with automated external integration pipelines.
 
 ---
 
-### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+### 7. [Prefect](https://github.com/PrefectHQ/prefect) [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)
+- **License**: Apache-2.0 License
+- **Primary Stack**: Python, FastAPI, Vue.js
+- **Overview**: Modern workflow orchestration engine that coordinates mission-critical data integrations and microservice tasks into transparent, observable Python pipelines with native async execution, dynamic task mapping, and automated retry policies.
+
+---
+
+### 8. [Temporal](https://github.com/temporalio/temporal) [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 - **License**: MIT License
 - **Primary Stack**: Go, TypeScript, Java, Python
 - **Overview**: Durable execution platform enabling developers to write resilient, code-first integration workflows that never fail due to network hiccups, downtime, or transient API outages. Powers mission-critical financial transactions, distributed sagas, and enterprise system synchronizations.
 
 ---
 
-### 7. [Node-RED](https://github.com/node-red/node-red) [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+### 9. [Node-RED](https://github.com/node-red/node-red) [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 - **License**: Apache-2.0 License
 - **Primary Stack**: JavaScript, Node.js
 - **Overview**: Flow-based visual programming tool originating from IBM. Connects hardware devices, IoT sensors, MQTT brokers, REST APIs, and online services together. Renowned for low resource footprint, running seamlessly on single-board computers (Raspberry Pi) and lightweight Docker containers.
 
 ---
 
-### 8. [Airbyte](https://github.com/airbytehq/airbyte) [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
+### 10. [Airbyte](https://github.com/airbytehq/airbyte) [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
 - **License**: ELv2 (Core is open code, free for internal use)
 - **Primary Stack**: Java, Python, React, Docker
 - **Overview**: The leading data integration and ELT pipeline engine. Offers 350+ connectors to replicate structured data from SaaS platforms, transactional databases, and APIs directly into data warehouses (Snowflake, BigQuery, ClickHouse) and vector databases.
 
 ---
 
-### 9. [Windmill](https://github.com/windmill-labs/windmill) [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+### 11. [Windmill](https://github.com/windmill-labs/windmill) [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
 - **License**: AGPL-3.0 License
 - **Primary Stack**: Rust, Svelte, TypeScript, PostgreSQL
 - **Overview**: Ultra-fast developer-centric integration platform that turns Python, TypeScript, Go, Bash, or SQL scripts into production-ready workflows and auto-generated user interfaces. Serves as a high-performance self-hosted alternative to Retool, Temporal, and Prefect.
 
 ---
 
-### 10. [Automatisch](https://github.com/automatisch/automatisch) [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+### 12. [Argo Workflows](https://github.com/argoproj/argo-workflows) [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)
+- **License**: Apache-2.0 License
+- **Primary Stack**: Go, Kubernetes CRDs, TypeScript
+- **Overview**: The Kubernetes-native workflow engine orchestrating parallel jobs on Kubernetes. Each step is executed as a container, enabling compute-heavy integration workloads, machine learning pipelines, and continuous data ingestion at massive enterprise scale.
+
+---
+
+### 13. [Automatisch](https://github.com/automatisch/automatisch) [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
 - **License**: AGPL-3.0 License
 - **Primary Stack**: Node.js, React, PostgreSQL
 - **Overview**: A privacy-first, business-friendly open-source Zapier alternative. Built specifically for organizations that cannot store credentials or customer data on US-based cloud multi-tenant infrastructure due to GDPR and strict privacy compliance.
 
 ---
 
-### 11. [Apache Camel](https://github.com/apache/camel) [![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
+### 14. [Debezium](https://github.com/debezium/debezium) [![GitHub stars](https://img.shields.io/github/stars/debezium/debezium?style=social&color=white)](https://github.com/debezium/debezium/stargazers)
+- **License**: Apache-2.0 License
+- **Primary Stack**: Java, Apache Kafka, Kafka Connect
+- **Overview**: Distributed platform for Change Data Capture (CDC). Transforms legacy relational databases (PostgreSQL, MySQL, Oracle, SQL Server) into real-time event streams, enabling event-driven iPaaS integration architectures without polling delays.
+
+---
+
+### 15. [Apache Camel](https://github.com/apache/camel) [![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
 - **License**: Apache-2.0 License
 - **Primary Stack**: Java, Quarkus, Spring Boot, Camel-K
 - **Overview**: The industry standard open-source enterprise integration framework implementing all Enterprise Integration Patterns (EIP). Features 300+ enterprise connectors, Kafka integrations, cloud endpoints, and native Kubernetes serverless execution via Camel K.
 
 ---
 
-### 12. [Apache NiFi](https://github.com/apache/nifi) [![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)
+### 16. [Apache NiFi](https://github.com/apache/nifi) [![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)
 - **License**: Apache-2.0 License
 - **Primary Stack**: Java
 - **Overview**: Robust, visual data logistics and flow management system. Excels at high-throughput data ingestion, backpressure regulation, multi-tenant security policies, and complete end-to-end data provenance tracking across complex edge-to-cloud topologies.
 
 ---
 
-### 13. [ByteChef](https://github.com/bytechefhq/bytechef) [![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers)
+### 17. [ByteChef](https://github.com/bytechefhq/bytechef) [![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers)
 - **License**: Apache-2.0 License
 - **Primary Stack**: Java, Spring Boot, Vue.js
 - **Overview**: An open-source, embeddable workflow automation and API integration platform. Designed specifically for SaaS software vendors seeking to embed out-of-the-box integration capabilities into their own applications.
 
 ---
 
-### 14. [Cenit IO](https://github.com/cenit-io/cenit) [![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit/stargazers)
+### 18. [Cenit IO](https://github.com/cenit-io/cenit) [![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit/stargazers)
 - **License**: MIT License
 - **Primary Stack**: Ruby, React, MongoDB
 - **Overview**: A 100% open-source integration Platform as a Service (iPaaS) backend. Includes pre-built Odoo ERP synchronization, webhook listener engines, protocol parsers, and custom data schema mapping tools.
@@ -223,9 +251,8 @@ Your backing fuels high-quality, up-to-date open-source reference architectures!
 
 ---
 
-## ⭐ Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Integration-Platform-Ipaas&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Integration-Platform-Ipaas&type=date&legend=top-left)
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2077/Awesome-Integration-Platform-Ipaas&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Integration-Platform-Ipaas&type=date&legend=top-left)
 
 ---
 
